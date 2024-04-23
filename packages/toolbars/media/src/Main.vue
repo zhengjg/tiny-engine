@@ -120,7 +120,7 @@ export default {
     const scale = computed(() => dimension.value.scale * 100)
 
     const state = reactive({
-      activeIndex: 0,
+      activeIndex: 4,
       guideValue: '',
       width: '',
       scaleValue: '',
@@ -228,13 +228,13 @@ export default {
           view: 'mobile',
           icon: 'IconMobileView',
           liked: 'mobile-portrai',
-          width: '480px',
-          minWidth: '240px',
-          maxWidth: '480px',
+          width: '375px',
+          minWidth: '375px',
+          maxWidth: '375px',
           title: '手机竖屏',
-          subTitle: '480px 及以下',
-          content: '此处添加的样式将适用于 480 像素及以下。',
-          enContent: 'styles added here will apply at 480px and down.'
+          subTitle: '适配375px一倍设计稿',
+          content: '此处添加的样式将适用于 375 像素及以下。适配一倍设计稿',
+          enContent: 'styles added here will apply at 375px and down.'
         }
       ]
     })
@@ -387,7 +387,7 @@ export default {
     })
 
     // 初始化 viewpoint
-    const mode = dimension.value.deviceType || 'desktop'
+    const mode = dimension.value.deviceType || 'mobile'
     setViewPort(mediaMap[mode])
 
     return {

@@ -247,7 +247,7 @@
                       {
                         "property": "text",
                         "type": "String",
-                        "defaultValue": "TinyEngine 前端可视化设计器，为设计器开发者提供定制服务，在线构建出自己专属的设计器。",
+                        "defaultValue": "请输入行内文本",
                         "label": {
                           "text": {
                             "zh_CN": "文本内容"
@@ -486,7 +486,7 @@
               "schema": {
                 "componentName": "Text",
                 "props": {
-                  "text": "TinyEngine 前端可视化设计器，为设计器开发者提供定制服务，在线构建出自己专属的设计器。"
+                  "text": "请输入行内文本"
                 }
               }
             },

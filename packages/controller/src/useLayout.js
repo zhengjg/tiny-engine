@@ -31,10 +31,10 @@ const pluginState = reactive({
 })
 
 const layoutState = reactive({
-  deviceType: 'desktop',
-  iframeWidth: '1200px',
+  deviceType: 'mobile',
+  iframeWidth: '275px',
   dimension: {
-    deviceType: 'desktop',
+    deviceType: 'mobile',
     width: '',
     maxWidth: '',
     minWidth: '',

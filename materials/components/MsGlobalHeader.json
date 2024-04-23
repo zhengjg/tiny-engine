@@ -1,0 +1,122 @@
+{
+  "id": 83,
+  "version": " 0.3.0",
+  "name": {
+    "zh_CN": "次级导航头"
+  },
+  "component": "GlobalHeader",
+  "icon": "ms-header",
+  "description": "次级导航头",
+  "doc_url": "",
+  "screenshot": "",
+  "tags": "",
+  "keywords": "",
+  "dev_mode": "proCode",
+  "npm": {
+    "package": "ms-ui-lib",
+    "version": "0.8.2",
+    "script": "https://npm.onmicrosoft.cn/ms-ui-lib@0.8.2/lib/ms-ui.es.js",
+    "css": null,
+    "dependencies": null,
+    "exportName": "GlobalHeader"
+  },
+  "group": "ms-ui-lib",
+  "category": "活动组件",
+  "configure": {
+    "loop": true,
+    "condition": true,
+    "styles": true,
+    "isContainer": false,
+    "isModal": false,
+    "isPopper": false,
+    "nestingRule": {
+      "childWhitelist": "",
+      "parentWhitelist": "",
+      "descendantBlacklist": "",
+      "ancestorWhitelist": ""
+    },
+    "isNullNode": false,
+    "isLayout": false,
+    "rootSelector": "",
+    "shortcuts": {
+      "properties": [
+        "type",
+        "size"
+      ]
+    },
+    "contextMenu": {
+      "actions": [
+        "copy",
+        "remove",
+        "insert",
+        "updateAttr",
+        "bindEevent",
+        "createBlock"
+      ],
+      "disable": []
+    },
+    "invalidity": [
+      ""
+    ],
+    "clickCapture": true,
+    "framework": "Vue"
+  },
+  "schema": {
+    "properties": [
+      {
+        "name": "config",
+        "label": {
+          "zh_CN": "基础配置"
+        },
+        "description": {
+          "zh_CN": "基础配置"
+        },
+        "collapse": {
+          "number": 6,
+          "text": {
+            "zh_CN": "显示更多"
+          }
+        },
+        "content": [
+          {
+            "property": "title",
+            "type": "string",
+            "defaultValue": "民生证券",
+            "label": {
+              "text": {
+                "zh_CN": "民生证券"
+              }
+            },
+            "cols": 12,
+            "hidden": false,
+            "required": true,
+            "readOnly": false,
+            "disabled": false,
+            "widget": {
+              "component": "MetaInput",
+              "props": {}
+            },
+            "description": {
+              "zh_CN": ""
+            }
+          }
+        ]
+      }
+    ],
+    "events": {},
+    "slots": {}
+  },
+  "snippets": [
+    {
+      "name": {
+        "zh_CN": "次级导航头"
+      },
+      "icon": "ms-header",
+      "screenshot": "",
+      "snippetName": "GlobalHeader",
+      "schema": {
+        "children": []
+      }
+    }
+  ]
+}

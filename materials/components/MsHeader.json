@@ -1,0 +1,283 @@
+{
+  "id": 76,
+  "version": " 0.3.0",
+  "name": {
+    "zh_CN": "页面导航"
+  },
+  "component": "MsHeader",
+  "icon": "ms-header",
+  "description": "页面导航头",
+  "doc_url": "",
+  "screenshot": "",
+  "tags": "",
+  "keywords": "",
+  "dev_mode": "proCode",
+  "npm": {
+    "package": "ms-ui-lib",
+    "version": "0.8.2",
+    "script": "https://npm.onmicrosoft.cn/ms-ui-lib@0.8.2/lib/ms-ui.es.js",
+    "css": null,
+    "dependencies": null,
+    "exportName": "Header"
+  },
+  "group": "ms-ui-lib",
+  "category": "活动组件",
+  "configure": {
+    "loop": true,
+    "condition": true,
+    "styles": true,
+    "isContainer": false,
+    "isModal": false,
+    "isPopper": false,
+    "nestingRule": {
+      "childWhitelist": "",
+      "parentWhitelist": "",
+      "descendantBlacklist": "",
+      "ancestorWhitelist": ""
+    },
+    "isNullNode": false,
+    "isLayout": false,
+    "rootSelector": "",
+    "shortcuts": {
+      "properties": [
+        "type",
+        "size"
+      ]
+    },
+    "contextMenu": {
+      "actions": [
+        "copy",
+        "remove",
+        "insert",
+        "updateAttr",
+        "bindEevent",
+        "createBlock"
+      ],
+      "disable": []
+    },
+    "invalidity": [
+      ""
+    ],
+    "clickCapture": true,
+    "framework": "Vue"
+  },
+  "schema": {
+    "properties": [
+      {
+        "name": "config",
+        "label": {
+          "zh_CN": "基础配置"
+        },
+        "description": {
+          "zh_CN": "基础配置"
+        },
+        "collapse": {
+          "number": 8,
+          "text": {
+            "zh_CN": "显示更多"
+          }
+        },
+        "content": [
+          {
+            "property": "title",
+            "type": "string",
+            "defaultValue": "民生证券",
+            "label": {
+              "text": {
+                "zh_CN": "民生证券"
+              }
+            },
+            "cols": 12,
+            "hidden": false,
+            "required": true,
+            "readOnly": false,
+            "disabled": false,
+            "widget": {
+              "component": "MetaInput",
+              "props": {}
+            },
+            "description": {
+              "zh_CN": ""
+            }
+          },
+          {
+            "property": "isShare",
+            "type": "string",
+            "defaultValue": " true",
+            "label": {
+              "text": {
+                "zh_CN": "isShare"
+              }
+            },
+            "cols": 12,
+            "hidden": false,
+            "required": true,
+            "readOnly": false,
+            "disabled": false,
+            "widget": {
+              "component": "MetaSwitch",
+              "props": {}
+            },
+            "description": {
+              "zh_CN": "是否需要分享"
+            }
+          },
+          {
+            "property": "shareTitle",
+            "type": "string",
+            "defaultValue": "",
+            "label": {
+              "text": {
+                "zh_CN": "分享标题"
+              }
+            },
+            "cols": 12,
+            "hidden": false,
+            "required": true,
+            "readOnly": false,
+            "disabled": false,
+            "widget": {
+              "component": "MetaInput",
+              "props": {
+                "placeholder": "请输入分享标题"
+              }
+            },
+            "description": {
+              "zh_CN": ""
+            }
+          },
+          {
+            "property": "shareSubstract",
+            "type": "string",
+            "defaultValue": "",
+            "label": {
+              "text": {
+                "zh_CN": "分享内容"
+              }
+            },
+            "cols": 12,
+            "hidden": false,
+            "required": true,
+            "readOnly": false,
+            "disabled": false,
+            "widget": {
+              "component": "MetaInput",
+              "props": {
+                "placeholder": "请输入分享内容",
+                "type": "textarea",
+                "rows": 3
+              }
+            },
+            "description": {
+              "zh_CN": ""
+            }
+          },
+          {
+            "property": "shareLink",
+            "type": "string",
+            "defaultValue": "",
+            "label": {
+              "text": {
+                "zh_CN": "分享链接"
+              }
+            },
+            "cols": 12,
+            "hidden": false,
+            "required": true,
+            "readOnly": false,
+            "disabled": false,
+            "widget": {
+              "component": "MetaInput",
+              "props": {
+                "placeholder": "请输入分享链接"
+              }
+            },
+            "description": {
+              "zh_CN": "分享链接"
+            }
+          }
+        ]
+      },
+      {
+        "name": "colorConfig",
+        "label": {
+          "zh_CN": "颜色设置"
+        },
+        "description": {
+          "zh_CN": "颜色设置"
+        },
+        "collapse": {
+          "number": 7,
+          "text": {
+            "zh_CN": "显示更多"
+          }
+        },
+        "content": [
+          {
+            "property": "bgColor",
+            "type": "string",
+            "defaultValue": "",
+            "label": {
+              "text": {
+                "zh_CN": "bgColor"
+              }
+            },
+            "cols": 12,
+            "hidden": false,
+            "required": true,
+            "readOnly": false,
+            "disabled": false,
+            "widget": {
+              "component": "MetaInput",
+              "props": {
+                "placeholder": "请输入rgba颜色值"
+              }
+            },
+            "description": {
+              "zh_CN": "导航背景颜色"
+            }
+          },
+          {
+            "property": "textColor",
+            "type": "string",
+            "defaultValue": "#000",
+            "label": {
+              "text": {
+                "zh_CN": "导航字体颜色"
+              }
+            },
+            "cols": 12,
+            "hidden": false,
+            "required": true,
+            "readOnly": false,
+            "disabled": false,
+            "widget": {
+              "component": "MetaColor",
+              "props": {
+                "placeholder": "请输入导航字体颜色"
+              }
+            },
+            "description": {
+              "zh_CN": "分享链接"
+            }
+          }
+        ]
+      }
+    ],
+    "events": {},
+    "slots": {}
+  },
+  "snippets": [
+    {
+      "name": {
+        "zh_CN": "页面导航头"
+      },
+      "icon": "ms-header",
+      "screenshot": "",
+      "snippetName": "MsHeader",
+      "schema": {
+        "children": []
+      }
+    }
+  ]
+}
