@@ -1,11 +1,11 @@
 {
   "id": 77,
-  "version": " 0.3.2",
+  "version": " 0.8.8",
   "name": {
     "zh_CN": "转盘抽奖"
   },
   "component": "BigWheel",
-  "icon": "button",
+  "icon": "ms-big-wheel",
   "description": "大转盘抽奖",
   "doc_url": "",
   "screenshot": "",
@@ -14,9 +14,9 @@
   "dev_mode": "proCode",
   "npm": {
     "package": "ms-ui-lib",
-    "version": "0.8.2",
-    "script": "https://npm.onmicrosoft.cn/ms-ui-lib@0.8.2/lib/ms-ui.es.js",
-    "css": "https://npm.onmicrosoft.cn/ms-ui-lib@0.8.2/lib/style.css",
+    "version": "0.8.8",
+    "script": "https://npm.onmicrosoft.cn/ms-ui-lib@0.8.8/lib/ms-ui.es.js",
+    "css": "https://npm.onmicrosoft.cn/ms-ui-lib@0.8.8/lib/style.css",
     "dependencies": null,
     "exportName": "BigWheel"
   },

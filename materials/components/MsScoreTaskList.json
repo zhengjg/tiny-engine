@@ -1,6 +1,6 @@
 {
   "id": 82,
-  "version": " 0.8.2",
+  "version": " 0.8.1",
   "name": {
     "zh_CN": "任务列表"
   },
@@ -14,8 +14,8 @@
   "dev_mode": "proCode",
   "npm": {
     "package": "ms-ui-lib",
-    "version": "0.8.2",
-    "script": "https://npm.onmicrosoft.cn/ms-ui-lib@0.8.2/lib/ms-ui.es.js",
+    "version": "0.8.1",
+    "script": "https://npm.onmicrosoft.cn/ms-ui-lib@0.8.1/lib/ms-ui.es.js",
     "css": null,
     "dependencies": {
       "@nutui/nutui-bingo": "^1.0.7"
@@ -25,7 +25,7 @@
   "group": "ms-ui-lib",
   "category": "活动组件",
   "configure": {
-    "loop": true,
+    "loop": false,
     "condition": true,
     "styles": true,
     "isContainer": false,
