@@ -18,7 +18,8 @@
     "script": "https://npm.onmicrosoft.cn/ms-ui-lib@0.8.8/lib/ms-ui.es.js",
     "css": "https://npm.onmicrosoft.cn/ms-ui-lib@0.8.8/lib/style.css",
     "dependencies": null,
-    "exportName": "BigWheel"
+    "exportName": "BigWheel",
+    "destructuring": true
   },
   "group": "ms-ui-lib",
   "category": "抽奖组件",
@@ -62,7 +63,64 @@
     "framework": "Vue"
   },
   "schema": {
-    "properties": [],
+    "properties": [
+      {
+        "name": "config",
+        "label": {
+          "zh_CN": "基础配置"
+        },
+        "description": {
+          "zh_CN": "基础配置"
+        },
+        "collapse": {
+          
+          "number": 6,
+          "text": {
+            "zh_CN": "显示更多"
+          }
+        },
+        "content": []
+      },
+      {
+        "name": "imageConfig",
+        "label": {
+          "zh_CN": "图片设置"
+        },
+        "description": {
+          "zh_CN": "图片设置"
+        },
+        "collapse": {
+          "number": 7,
+          "text": {
+            "zh_CN": "显示更多"
+          }
+        },
+        "content": [
+          {
+            "property": "src",
+            "type": "string",
+            "defaultValue": "",
+            "label": {
+              "text": {
+                "zh_CN": "背景图片"
+              }
+            },
+            "cols": 12,
+            "hidden": false,
+            "required": true,
+            "readOnly": false,
+            "disabled": false,
+            "widget": {
+              "component": "MetaImage",
+              "props": {}
+            },
+            "description": {
+              "zh_CN": ""
+            }
+          }
+        ]
+      }
+    ],
     "events": {},
     "slots": {}
   },

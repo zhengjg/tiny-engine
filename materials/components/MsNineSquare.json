@@ -20,7 +20,8 @@
     "dependencies": {
       "@nutui/nutui-bingo": "^1.0.7"
     },
-    "exportName": "NineSquare"
+    "exportName": "NineSquare",
+    "destructuring": true
   },
   "group": "ms-ui-lib",
   "category": "抽奖组件",

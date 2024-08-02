@@ -20,7 +20,8 @@
     "dependencies": {
       "@nutui/nutui-bingo": "^1.0.7"
     },
-    "exportName": "ScoreTaskList"
+    "exportName": "ScoreTaskList",
+    "destructuring": true
   },
   "group": "ms-ui-lib",
   "category": "活动组件",

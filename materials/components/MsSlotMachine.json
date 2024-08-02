@@ -20,7 +20,8 @@
     "dependencies": {
       "@nutui/nutui-bingo": "^1.0.7"
     },
-    "exportName": "SlotMachine"
+    "exportName": "SlotMachine",
+    "destructuring": true
   },
   "group": "ms-ui-lib",
   "category": "抽奖组件",

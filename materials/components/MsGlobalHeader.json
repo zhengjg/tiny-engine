@@ -18,7 +18,8 @@
     "script": "https://npm.onmicrosoft.cn/ms-ui-lib@0.8.2/lib/ms-ui.es.js",
     "css": null,
     "dependencies": null,
-    "exportName": "GlobalHeader"
+    "exportName": "GlobalHeader",
+    "destructuring": true
   },
   "group": "ms-ui-lib",
   "category": "活动组件",
